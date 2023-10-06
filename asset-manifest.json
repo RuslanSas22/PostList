@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/postlist/static/css/main.cadcaf53.css",
+    "main.js": "/postlist/static/js/main.cd20e5d7.js",
+    "index.html": "/postlist/index.html",
+    "main.cadcaf53.css.map": "/postlist/static/css/main.cadcaf53.css.map",
+    "main.cd20e5d7.js.map": "/postlist/static/js/main.cd20e5d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cadcaf53.css",
+    "static/js/main.cd20e5d7.js"
+  ]
+}
