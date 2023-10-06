@@ -1,0 +1,48 @@
+.search-drop {
+  width: 550px;
+}
+.search-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.search-container input {
+  width: 70%;
+  height: 30px;
+}
+.search-container button {
+  width: 25%;
+  height: 30px;
+  border-radius: 10px;
+  color: white;
+  background-color: darkcyan;
+}
+
+.dropdown {
+  background-color: white;
+  color: darkcyan;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  width: 550px;
+  position: absolute;
+  z-index: 1000;
+}
+
+.dropdown:empty {
+  border: none;
+}
+
+.dropdown-row {
+  cursor: pointer;
+  text-align: start;
+  margin: 2px 0;
+}
+
+input {
+  width: 220px;
+}
+
+.search-inner {
+  display: flex;
+}

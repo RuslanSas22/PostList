@@ -1,0 +1,38 @@
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  height: 700px;
+  margin: 20px 0 10px;
+}
+
+.post {
+  border: 1px solid #ccc;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  grid-column: span 2;
+}
+
+.pagination button {
+  margin: 0 5px;
+  width: 30px;
+  background-color: darkcyan;
+  color: white;
+  border: 1px solid darkcyan;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: white;
+  color: darkcyan;
+}
